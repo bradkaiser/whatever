@@ -3,12 +3,9 @@
 
 
 ```mermaid
-graph TD
-  A(round);
-  B[Square];
-  C<triangle>;
-  
-  A --> B;
-  A --> C;
-  C --> B;
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
 ```
